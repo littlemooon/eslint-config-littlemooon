@@ -46,6 +46,7 @@ module.exports = {
           '/^keyPaths+$/',
           '/^authed+$/',
           '/^mounted+$/',
+          '/^getInitialProps+$/',
           'lifecycle',
           '/^on.+$/',
           '/^handle.+$/',

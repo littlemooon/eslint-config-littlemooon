@@ -1,4 +1,4 @@
-# eslint-config-flow
+# eslint-config-littlmooon
 
 Eslint config including:
  - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
@@ -16,6 +16,6 @@ npm i eslint-config-littlemooon -D
 Add the following to your .eslintrc:
 ```
 {
-  extends: "littlemooon",
+  "extends": "littlemooon",
 }
 ```

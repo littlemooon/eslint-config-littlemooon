@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-littlemooon",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Eslint config with flow support",
   "main": "index.js",
   "repository": "eslint-config-littlemooon",

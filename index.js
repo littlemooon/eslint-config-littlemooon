@@ -6,8 +6,8 @@ module.exports = {
     './rules/jest',
     './rules/jsx-a11y',
     './rules/react',
-    './rules/prettier',
     './rules/flow',
+    './rules/prettier',
   ].map(require.resolve),
   env: {
     node: true,

@@ -1,2 +1,8 @@
 {
+  "eslint.enable": true,
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false
 }

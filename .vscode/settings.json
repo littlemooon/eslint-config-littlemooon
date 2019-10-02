@@ -1,8 +1,38 @@
 {
-  "eslint.enable": true,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
   "eslint.autoFixOnSave": true,
-  "flow.useNPMPackagedFlow": true,
-  "javascript.validate.enable": false,
-  "javascript.format.enable": false
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "activityBarBadge.foreground": "#d69e2e",
+    "titleBar.activeBackground": "#d69e2e",
+    "titleBar.inactiveBackground": "#d69e2e99",
+    "statusBar.background": "#d69e2e",
+    "sideBar.border": "#d69e2e",
+    "statusBar.border": "#d69e2e",
+    "panel.border": "#d69e2e",
+    "panelTitle.activeBorder": "#d69e2e",
+    "activityBar.background": "#f6e05e",
+    "statusBarItem.hoverBackground": "#f6e05e",
+    "activityBar.foreground": "#2d3748",
+    "activityBar.inactiveForeground": "#4a5568",
+    "activityBarBadge.background": "#e7e7e7",
+    "titleBar.activeForeground": "#e7e7e7",
+    "statusBar.foreground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  }
 }

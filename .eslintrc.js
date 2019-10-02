@@ -1,3 +1,3 @@
 module.exports = {
-  extends: './index.js'
+  extends: ['./index.js', './typescript.js', './react.js', './vue.js', './svelte.js']
 }
